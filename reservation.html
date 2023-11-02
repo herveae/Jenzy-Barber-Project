@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/reservation.css">
+</head>
+<body>
+
+    
+    <!-- NavBar  -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <img src="images/logoJenzy.jpg" alt="" width="60px" height="60px">
+
+          <a class="navbar-brand navTitle" href="#">Jenzy Fashion</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="produits.html">Produits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " href="reservation.html">Reserver une place</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+    <!-- Header -->
+    <header class="">
+        <section id="headerPage" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto"  data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
+                        <h1 class="pageTitle">Prenez rendez-vous directement</h1>
+                        <h4 class="pageParagraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia aliquam consequuntur blanditiis magni atque placeat facilis accusamus, quia saepe! Corrupti neque deserunt repellat ullam?</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        
+        <div class="container" id="contact">
+                <div class="row">
+                    <div class="col-md-4 mx-auto">
+                        <div class="contenu-contact" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">
+                            <h2 class="title-contact">Need reservation ? Contact us.</h2>
+                            <p class="p-contact">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus facilis, ipsum rem vel repellendus cumque, veritatis labore deleniti debitis accusamus quam perspiciatis voluptates dolore quo ea, qui voluptatibus earum beatae!</p>
+                            <img  class="img-contact" src="images/personnel2.jpeg" alt="image" width="100%" height="80%">
+                        </div>
+                    </div>
+                    <div class="col-md-5 mx-auto">
+                        <form action="#" class="form" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">
+                        <div class="form-group fg">
+                            <p class="p-name">Your name:</p>
+                            <input  class="form-control input-name" name="name" id="name" placeholder="votre nom">
+                        </div>
+                        <div class="form-group fg">
+                            <p class="p-email">Your email address:</p>
+                            <input  class="form-control input-email" name="email" id="email" placeholder="Example: votrenom@example.com">
+                        </div>
+                            <div class="form-group fg">
+                            <p class="p-text">Your message:</p>
+                            <textarea class="form-control  input-text" name="" id="" cols="30" rows="4" placeholder="message"></textarea>
+                        </div>
+                        <div class="form-group fg">
+                            <button type="submit" class="submit-email disabled">Send</button>
+                            <p class="p-submit">We will only send you information regarding Jenzy Fashion.</p>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+        </div>
+
+    </main>
+
+
+
+    <script src="Bootstrap/bootstrap.js"></script>
+    <!-- inclusion de la librairie JavaScript AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
